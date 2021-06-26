@@ -1,0 +1,20 @@
+.operators input {
+  background-color: #10ff00;
+  border: 1px solid red;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  display: inline;
+  padding-left: 0%;
+}
+
+.operators :hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.main{
+  background-color: rgb(39, 36, 36);
+  color: blue;
+  border: 2px solid transparent;
+  border-radius: 20px
+}

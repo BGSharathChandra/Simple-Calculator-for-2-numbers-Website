@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <title>Calculator</title>
+  </head>
+  <body class="py-5">
+    <div class="container py-5 main">
+      <div class="card py-5 main">
+        <div class="card-body  main">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1 class="font-weight-bold">Calculator</h1>
+              <p class="my-3 mx-2">Enter your Number <br></p>
+            </div>
+          </div>
+
+          <div class="row mt-2">
+            <div class="offset-md-3 col-md-7 ">
+              <div class="form">
+                <div class="form-group">
+                      <input type="number" name="" id="n1" value="Enter Number 1">
+                      <input type="number" name="" id="n2" value="Enter Number 2">
+                      <span>=</span>
+                      <input type="number" name="" id="Output" disabled=disabled>
+                    </div>
+              </div>
+                    <div class="operators">
+                        <input type="button" class="add" onclick="addition()" name="" value="Add">
+                        <input type="button" class="sub" onclick="subtraction()" name="" value="Subtraction">
+                        <input type="button" class="prod" onclick="multiplication()" name="" value="Multiplication">
+                        <input type="button" class="div" onclick="division()" name="Division" value="Division"> <br>
+                        <input type="button" class="Power" onclick="power()" name="power" value="Power">
+                        <input type="button" class="Percentage" onclick="percentage()" name="Percentage" value="Percentage">
+                        <input type="button" class="LCM" onclick="lcm()" name="power" value="LCM">
+                        <input type="button" class="Remainder" onclick="remainder()" name="Remainder" value="Remainder"> <br>
+                        <br>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
